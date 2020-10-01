@@ -1,9 +1,16 @@
+#outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 #calc-contain{
-    position: relative;
+    /*position: relative;*/
     width: 400px;
     /*border: 2px solid black;*/
     border-radius: 12px;
-    margin: 0px auto;
+    /*margin: 0px auto;*/
+    box-shadow: 0 0 30px 5px;
     padding: 20px 20px 100px 20px;
 }
 #agh{
